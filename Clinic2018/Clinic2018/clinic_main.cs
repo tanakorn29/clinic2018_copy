@@ -31,5 +31,10 @@ namespace Clinic2018
         {
             this.Close();
         }
+
+        private void bunifuFlatButton1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
