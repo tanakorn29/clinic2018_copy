@@ -26,8 +26,8 @@ namespace Clinic2018
         {
 
         }
-        
-        private void B_close_Click(object sender, EventArgs e)
+
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             this.Close();
         }

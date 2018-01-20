@@ -83,9 +83,39 @@ namespace Clinic2018.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ic_grid {
+            get {
+                object obj = ResourceManager.GetObject("ic_grid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap logo_Heart_Care {
             get {
                 object obj = ResourceManager.GetObject("logo_Heart_Care", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap x_01_512 {
+            get {
+                object obj = ResourceManager.GetObject("x-01-512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap มหาวิทยาลัยรามคำแหง_2 {
+            get {
+                object obj = ResourceManager.GetObject("มหาวิทยาลัยรามคำแหง_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
