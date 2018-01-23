@@ -83,9 +83,29 @@ namespace Clinic2018.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ic_documents {
+            get {
+                object obj = ResourceManager.GetObject("ic_documents", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ic_grid {
             get {
                 object obj = ResourceManager.GetObject("ic_grid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ic_user {
+            get {
+                object obj = ResourceManager.GetObject("ic_user", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

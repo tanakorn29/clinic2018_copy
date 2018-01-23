@@ -36,5 +36,30 @@ namespace Clinic2018
         {
 
         }
+
+        private void bunifuThinButton21_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Password_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

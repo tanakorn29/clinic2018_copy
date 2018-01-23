@@ -65,6 +65,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="clinic_login.resx">
+      <DependentUpon>clinic_login.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="clinic_main.resx">
       <DependentUpon>clinic_main.cs</DependentUpon>
     </EmbeddedResource>
@@ -108,6 +111,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ic_grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_documents.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
