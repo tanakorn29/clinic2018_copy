@@ -16,48 +16,13 @@ namespace Clinic2018
         {
             InitializeComponent();
         }
-
-        private void clinic_main_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuDatepicker1_onValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void bunifuFlatButton1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuThinButton21_Click(object sender, EventArgs e)
-        {
-            
-        }
-
-        private void Password_OnValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuCustomLabel2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bunifuCustomLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void B_login_Click(object sender, EventArgs e)
         {
 
         }

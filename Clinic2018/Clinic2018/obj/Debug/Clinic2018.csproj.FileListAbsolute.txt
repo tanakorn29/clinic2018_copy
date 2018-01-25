@@ -1,0 +1,10 @@
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic20184\Clinic2018\Clinic2018\bin\Debug\Clinic2018.exe.config
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic20184\Clinic2018\Clinic2018\bin\Debug\Clinic2018.exe
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic20184\Clinic2018\Clinic2018\bin\Debug\Clinic2018.pdb
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic20184\Clinic2018\Clinic2018\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic20184\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_login.resources
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic20184\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_main.resources
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic20184\Clinic2018\Clinic2018\obj\Debug\Clinic2018.Properties.Resources.resources
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic20184\Clinic2018\Clinic2018\obj\Debug\Clinic2018.csproj.GenerateResource.Cache
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic20184\Clinic2018\Clinic2018\obj\Debug\Clinic2018.exe
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic20184\Clinic2018\Clinic2018\obj\Debug\Clinic2018.pdb

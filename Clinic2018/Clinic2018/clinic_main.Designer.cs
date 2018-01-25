@@ -120,7 +120,7 @@
             this.bunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton6.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton6.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton6.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            
             // 
             // bunifuFlatButton5
             // 
@@ -157,7 +157,7 @@
             this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton5.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton5.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            
             // 
             // bunifuFlatButton4
             // 
@@ -194,7 +194,7 @@
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton4.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            
             // 
             // bunifuFlatButton3
             // 
@@ -231,7 +231,7 @@
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton3.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            
             // 
             // bunifuFlatButton2
             // 
@@ -268,7 +268,7 @@
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton2.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            
             // 
             // bunifuFlatButton1
             // 
@@ -306,7 +306,7 @@
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bunifuFlatButton1.Click += new System.EventHandler(this.bunifuFlatButton1_Click);
+            
             // 
             // pictureBox1
             // 
@@ -317,7 +317,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+           
             // 
             // bunifuImageButton1
             // 
@@ -418,7 +418,6 @@
             this.L_Ramkhamhaeng1.Size = new System.Drawing.Size(190, 30);
             this.L_Ramkhamhaeng1.TabIndex = 5;
             this.L_Ramkhamhaeng1.Text = "Ramkhamhaeng  \r\n";
-            this.L_Ramkhamhaeng1.Click += new System.EventHandler(this.bunifuCustomLabel1_Click);
             // 
             // Password
             // 
@@ -439,7 +438,6 @@
             this.Password.TabIndex = 4;
             this.Password.Text = "Password";
             this.Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.Password.OnValueChanged += new System.EventHandler(this.Password_OnValueChanged);
             // 
             // Username
             // 
@@ -486,6 +484,7 @@
             this.B_login.TabIndex = 6;
             this.B_login.Tag = "111";
             this.B_login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.B_login.Click += new System.EventHandler(this.B_login_Click);
             // 
             // P_username
             // 
@@ -517,7 +516,6 @@
             this.L_MedicalCentre2.Size = new System.Drawing.Size(96, 17);
             this.L_MedicalCentre2.TabIndex = 5;
             this.L_MedicalCentre2.Text = "Medical Centre\r\n";
-            this.L_MedicalCentre2.Click += new System.EventHandler(this.bunifuCustomLabel2_Click);
             // 
             // P_logo
             // 
@@ -528,7 +526,6 @@
             this.P_logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.P_logo.TabIndex = 3;
             this.P_logo.TabStop = false;
-            this.P_logo.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // clinic_main
             // 
@@ -551,7 +548,6 @@
             this.Name = "clinic_main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clinic System";
-            this.Load += new System.EventHandler(this.clinic_main_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
