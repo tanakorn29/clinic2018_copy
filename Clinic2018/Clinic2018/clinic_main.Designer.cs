@@ -47,8 +47,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.bunifuDragControl1 = new Bunifu.Framework.UI.BunifuDragControl(this.components);
             this.L_Ramkhamhaeng1 = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.Password = new Bunifu.Framework.UI.BunifuMaterialTextbox();
-            this.Username = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.T_Password = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.T_Username = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.B_login = new Bunifu.Framework.UI.BunifuThinButton2();
             this.P_username = new System.Windows.Forms.PictureBox();
             this.P_password = new System.Windows.Forms.PictureBox();
@@ -120,7 +120,6 @@
             this.bunifuFlatButton6.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton6.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton6.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            
             // 
             // bunifuFlatButton5
             // 
@@ -157,7 +156,6 @@
             this.bunifuFlatButton5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton5.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton5.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            
             // 
             // bunifuFlatButton4
             // 
@@ -194,7 +192,6 @@
             this.bunifuFlatButton4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton4.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton4.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            
             // 
             // bunifuFlatButton3
             // 
@@ -231,7 +228,6 @@
             this.bunifuFlatButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton3.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton3.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            
             // 
             // bunifuFlatButton2
             // 
@@ -268,7 +264,6 @@
             this.bunifuFlatButton2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton2.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton2.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            
             // 
             // bunifuFlatButton1
             // 
@@ -306,7 +301,6 @@
             this.bunifuFlatButton1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.bunifuFlatButton1.Textcolor = System.Drawing.Color.Silver;
             this.bunifuFlatButton1.TextFont = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            
             // 
             // pictureBox1
             // 
@@ -317,7 +311,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-           
             // 
             // bunifuImageButton1
             // 
@@ -419,45 +412,45 @@
             this.L_Ramkhamhaeng1.TabIndex = 5;
             this.L_Ramkhamhaeng1.Text = "Ramkhamhaeng  \r\n";
             // 
-            // Password
+            // T_Password
             // 
-            this.Password.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Password.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.Password.ForeColor = System.Drawing.Color.White;
-            this.Password.HintForeColor = System.Drawing.Color.Empty;
-            this.Password.HintText = "";
-            this.Password.isPassword = true;
-            this.Password.LineFocusedColor = System.Drawing.Color.White;
-            this.Password.LineIdleColor = System.Drawing.Color.White;
-            this.Password.LineMouseHoverColor = System.Drawing.Color.White;
-            this.Password.LineThickness = 3;
-            this.Password.Location = new System.Drawing.Point(480, 237);
-            this.Password.Margin = new System.Windows.Forms.Padding(4);
-            this.Password.Name = "Password";
-            this.Password.Size = new System.Drawing.Size(154, 33);
-            this.Password.TabIndex = 4;
-            this.Password.Text = "Password";
-            this.Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.T_Password.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.T_Password.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.T_Password.ForeColor = System.Drawing.Color.White;
+            this.T_Password.HintForeColor = System.Drawing.Color.Empty;
+            this.T_Password.HintText = "";
+            this.T_Password.isPassword = true;
+            this.T_Password.LineFocusedColor = System.Drawing.Color.White;
+            this.T_Password.LineIdleColor = System.Drawing.Color.White;
+            this.T_Password.LineMouseHoverColor = System.Drawing.Color.White;
+            this.T_Password.LineThickness = 3;
+            this.T_Password.Location = new System.Drawing.Point(480, 237);
+            this.T_Password.Margin = new System.Windows.Forms.Padding(4);
+            this.T_Password.Name = "T_Password";
+            this.T_Password.Size = new System.Drawing.Size(154, 33);
+            this.T_Password.TabIndex = 4;
+            this.T_Password.Text = "Password";
+            this.T_Password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
-            // Username
+            // T_Username
             // 
-            this.Username.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Username.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.Username.ForeColor = System.Drawing.Color.White;
-            this.Username.HintForeColor = System.Drawing.Color.Empty;
-            this.Username.HintText = "";
-            this.Username.isPassword = false;
-            this.Username.LineFocusedColor = System.Drawing.Color.White;
-            this.Username.LineIdleColor = System.Drawing.Color.White;
-            this.Username.LineMouseHoverColor = System.Drawing.Color.White;
-            this.Username.LineThickness = 3;
-            this.Username.Location = new System.Drawing.Point(480, 174);
-            this.Username.Margin = new System.Windows.Forms.Padding(4);
-            this.Username.Name = "Username";
-            this.Username.Size = new System.Drawing.Size(154, 33);
-            this.Username.TabIndex = 4;
-            this.Username.Text = "Username";
-            this.Username.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.T_Username.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.T_Username.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.T_Username.ForeColor = System.Drawing.Color.White;
+            this.T_Username.HintForeColor = System.Drawing.Color.Empty;
+            this.T_Username.HintText = "";
+            this.T_Username.isPassword = false;
+            this.T_Username.LineFocusedColor = System.Drawing.Color.White;
+            this.T_Username.LineIdleColor = System.Drawing.Color.White;
+            this.T_Username.LineMouseHoverColor = System.Drawing.Color.White;
+            this.T_Username.LineThickness = 3;
+            this.T_Username.Location = new System.Drawing.Point(480, 174);
+            this.T_Username.Margin = new System.Windows.Forms.Padding(4);
+            this.T_Username.Name = "T_Username";
+            this.T_Username.Size = new System.Drawing.Size(154, 33);
+            this.T_Username.TabIndex = 4;
+            this.T_Username.Text = "Username";
+            this.T_Username.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // B_login
             // 
@@ -536,8 +529,8 @@
             this.Controls.Add(this.B_login);
             this.Controls.Add(this.L_MedicalCentre2);
             this.Controls.Add(this.L_Ramkhamhaeng1);
-            this.Controls.Add(this.Username);
-            this.Controls.Add(this.Password);
+            this.Controls.Add(this.T_Username);
+            this.Controls.Add(this.T_Password);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.P_logo);
             this.Controls.Add(this.header);
@@ -583,8 +576,8 @@
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton4;
         private Bunifu.Framework.UI.BunifuFlatButton bunifuFlatButton3;
         private Bunifu.Framework.UI.BunifuCustomLabel L_Ramkhamhaeng1;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox Password;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox Username;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox T_Password;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox T_Username;
         private Bunifu.Framework.UI.BunifuThinButton2 B_login;
         private System.Windows.Forms.PictureBox P_username;
         private System.Windows.Forms.PictureBox P_password;

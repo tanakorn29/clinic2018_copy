@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Clinic2018
 {
@@ -16,7 +17,7 @@ namespace Clinic2018
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new clinic_main());
+            Application.Run(new clinic_main_v2());
         }
     }
 }
