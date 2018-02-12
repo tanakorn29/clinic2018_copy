@@ -27,12 +27,14 @@ namespace Clinic2018
             set { label1.Text = "ค่าที่ได้รับ :" + " " + value; }
         }
 
-        private void textBox1_KeyDown(object sender, KeyEventArgs e)
+        private void clinic_identity_card_Load(object sender, EventArgs e)
         {
-            textBox1.Text = string.Empty;
-            Show_text sht = new Show_text();
-            sht.Setlabel = textBox1.Text;
-            sht.Show();
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -61,6 +61,11 @@ namespace Clinic2018
             this.toolStrip1.Hide();
             //this.Close();
         }
-        
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            clinic_identity_card cic = new Clinic2018.clinic_identity_card();
+            cic.Show();
+        }
     }
 }
