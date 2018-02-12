@@ -46,5 +46,21 @@ namespace Clinic2018
             clinic_identity_card sh1 = new clinic_identity_card();
             sh1.Show();
         }
+
+        private void B_login_Click(object sender, EventArgs e)
+        {
+            this.menuStrip1.Show();
+            this.toolStrip1.Show();
+            this.panel1.Hide();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.panel1.Show();
+            this.menuStrip1.Hide();
+            this.toolStrip1.Hide();
+            //this.Close();
+        }
+        
     }
 }

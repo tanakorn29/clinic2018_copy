@@ -44,6 +44,7 @@
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.Highlight;
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -58,6 +59,7 @@
             this.groupBox1.Controls.Add(this.T_Password);
             this.groupBox1.Controls.Add(this.P_password);
             this.groupBox1.Controls.Add(this.P_username);
+            this.groupBox1.ForeColor = System.Drawing.Color.White;
             this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(260, 237);
@@ -72,7 +74,7 @@
             this.B_login.ActiveFillColor = System.Drawing.Color.SeaGreen;
             this.B_login.ActiveForecolor = System.Drawing.Color.White;
             this.B_login.ActiveLineColor = System.Drawing.Color.SeaGreen;
-            this.B_login.BackColor = System.Drawing.SystemColors.Control;
+            this.B_login.BackColor = System.Drawing.Color.Transparent;
             this.B_login.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("B_login.BackgroundImage")));
             this.B_login.ButtonText = "login";
             this.B_login.Cursor = System.Windows.Forms.Cursors.Hand;
