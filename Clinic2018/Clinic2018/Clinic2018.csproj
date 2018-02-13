@@ -86,17 +86,17 @@
     <Compile Include="clinic_login.Designer.cs">
       <DependentUpon>clinic_login.cs</DependentUpon>
     </Compile>
-    <Compile Include="clinic_main_v2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="clinic_main_v2.Designer.cs">
-      <DependentUpon>clinic_main_v2.cs</DependentUpon>
-    </Compile>
     <Compile Include="clinic_main.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="clinic_main.Designer.cs">
       <DependentUpon>clinic_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clinic_main_sub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_main_sub.Designer.cs">
+      <DependentUpon>clinic_main_sub.cs</DependentUpon>
     </Compile>
     <Compile Include="clinic_notification.cs">
       <SubType>Form</SubType>
@@ -140,11 +140,11 @@
     <EmbeddedResource Include="clinic_login.resx">
       <DependentUpon>clinic_login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="clinic_main_v2.resx">
-      <DependentUpon>clinic_main_v2.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="clinic_main.resx">
       <DependentUpon>clinic_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_main_sub.resx">
+      <DependentUpon>clinic_main_sub.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_notification.resx">
       <DependentUpon>clinic_notification.cs</DependentUpon>
