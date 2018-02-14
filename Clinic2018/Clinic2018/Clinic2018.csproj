@@ -110,11 +110,11 @@
     <Compile Include="clinic_notification.Designer.cs">
       <DependentUpon>clinic_notification.cs</DependentUpon>
     </Compile>
-    <Compile Include="clinic_identity_card.cs">
+    <Compile Include="clinic_search.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="clinic_identity_card.Designer.cs">
-      <DependentUpon>clinic_identity_card.cs</DependentUpon>
+    <Compile Include="clinic_search.Designer.cs">
+      <DependentUpon>clinic_search.cs</DependentUpon>
     </Compile>
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -158,8 +158,8 @@
     <EmbeddedResource Include="clinic_notification.resx">
       <DependentUpon>clinic_notification.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="clinic_identity_card.resx">
-      <DependentUpon>clinic_identity_card.cs</DependentUpon>
+    <EmbeddedResource Include="clinic_search.resx">
+      <DependentUpon>clinic_search.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

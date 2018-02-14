@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace Clinic2018
 {
-    public partial class clinic_identity_card : Form
+    public partial class clinic_search : Form
     {
         
-        public clinic_identity_card()
+        public clinic_search()
         {
             InitializeComponent();
         }
