@@ -17,7 +17,7 @@ namespace Clinic2018
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new clinic_identity_card());
+            Application.Run(new clinic_insert());
         }
     }
 }

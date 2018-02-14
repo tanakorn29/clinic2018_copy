@@ -32,3 +32,4 @@ C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_identity_card.resources
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.Show_text.resources
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_login.resources
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_insert.resources

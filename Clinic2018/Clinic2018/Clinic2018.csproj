@@ -80,6 +80,12 @@
     <Compile Include="clinic_barcode.Designer.cs">
       <DependentUpon>clinic_barcode.cs</DependentUpon>
     </Compile>
+    <Compile Include="clinic_insert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clinic_insert.Designer.cs">
+      <DependentUpon>clinic_insert.cs</DependentUpon>
+    </Compile>
     <Compile Include="clinic_login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -136,6 +142,9 @@
     </Compile>
     <EmbeddedResource Include="clinic_barcode.resx">
       <DependentUpon>clinic_barcode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clinic_insert.resx">
+      <DependentUpon>clinic_insert.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="clinic_login.resx">
       <DependentUpon>clinic_login.cs</DependentUpon>
