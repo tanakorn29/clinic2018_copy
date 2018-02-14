@@ -28,7 +28,7 @@ namespace Clinic2018
         }
         private void comboBox5_Click(object sender, EventArgs e)
         {
-            conn.Open(); //ทเสอบ
+            conn.Open(); //ทดสอบ
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "select province_name from provinces";
