@@ -117,6 +117,26 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label12.Text" xml:space="preserve">
+    <value>ยังไม่มี รอเพิ่ม
+
+-เพศ patient_gender
+-patient_date_issue
+-patient_date_expiry
+- patient_age_month
+- patient_age_day
+- กรุ๊ปเลือด patient_blood_type
+- patient_marriage_status
+- ศาสนา patient_religion
+- patient_carreer
+- สัญชาติ patient_nationality1
+- สัญชาติ patient_nationality2
+- ประเทศ patient_country
+- อีเมล patient_email
+- เบอร์ที่ทำงาน patient_telwork
+- เบอร์มือถือ patient_telmobile
+- เบอร์บ้าน patient_telhome</value>
+  </data>
   <metadata name="queueTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>

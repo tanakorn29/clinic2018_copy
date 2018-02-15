@@ -26,9 +26,11 @@ namespace Clinic2018
         {
             this.Close();
         }
-        private void comboBox5_Click(object sender, EventArgs e)
+
+        //เลือกจังหวัด
+        private void patient_province_Click(object sender, EventArgs e)
         {
-            conn.Open(); //ทดสอบ
+            conn.Open();
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "select province_name from provinces";
@@ -39,10 +41,32 @@ namespace Clinic2018
 
             foreach (DataRow dr in dt.Rows)
             {
-                comboBox5.Items.Add(dr["province_name"].ToString());
+                patient_province.Items.Add(dr["province_name"].ToString());
             }
 
             conn.Close();
+        }
+
+        //เลือกอำเภอ
+        private void patient_amphur_Click(object sender, EventArgs e)
+        {
+            {
+                conn.Open();
+                SqlCommand cmd = conn.CreateCommand();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "select AMPHUR_NAME from amphures";
+                cmd.ExecuteNonQuery();
+                DataTable dt = new DataTable();
+                SqlDataAdapter da = new SqlDataAdapter(cmd);
+                da.Fill(dt);
+
+                foreach (DataRow dr in dt.Rows)
+                {
+                    patient_amphur.Items.Add(dr["amphur_name"].ToString());
+                }
+
+                conn.Close();
+            }
         }
     }
 }
