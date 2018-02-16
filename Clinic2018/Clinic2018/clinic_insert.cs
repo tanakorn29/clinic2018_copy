@@ -27,7 +27,7 @@ namespace Clinic2018
             this.Close();
         }
 
-        //เลือกจังหวัด
+        // เลือกจังหวัด
         private void patient_province_Click(object sender, EventArgs e)
         {
             conn.Open();
@@ -47,7 +47,7 @@ namespace Clinic2018
             conn.Close();
         }
 
-        //เลือกอำเภอ
+        // เลือกอำเภอ/เขต
         private void patient_amphur_Click(object sender, EventArgs e)
         {
             {
@@ -67,6 +67,46 @@ namespace Clinic2018
 
                 conn.Close();
             }
+        }
+
+        // เลือกตำบล/แขวง
+        private void patient_district_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select DISTRICT_NAME from districts";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+
+            foreach (DataRow dr in dt.Rows)
+            {
+                patient_district.Items.Add(dr["district_name"].ToString());
+            }
+
+            conn.Close();
+        }
+
+        // เลือกรหัสไปรษณีย์
+        private void patient_postcode_Click(object sender, EventArgs e)
+        {
+            conn.Open();
+            SqlCommand cmd = conn.CreateCommand();
+            cmd.CommandType = CommandType.Text;
+            cmd.CommandText = "select zipcode from zipcodes";
+            cmd.ExecuteNonQuery();
+            DataTable dt = new DataTable();
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+            da.Fill(dt);
+
+            foreach (DataRow dr in dt.Rows)
+            {
+                patient_postcode.Items.Add(dr["zipcode"].ToString());
+            }
+
+            conn.Close();
         }
     }
 }
