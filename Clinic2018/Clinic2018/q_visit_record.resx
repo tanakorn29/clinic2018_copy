@@ -117,32 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
-        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIHSURBVFhHxZffRkVBFMY3EdFVRM/Qk0REtz1M9ABd
-        RUREdBUR0W1EV9EzRFddRUREfb/dmWPOnG/+7NM5+vhx7FlrfWvvmT2zTzdAS2JLHIoH8Si+RvCba4wR
-        Q+zctCaOxZv4boRYcsidWctiX7wLZ9ICudSg1iBtiDvhis7CvaBmkzbFs3CF/gI1qV3UuliEeYDaeFgx
-        TzwqlzhP8LBrgsXiEhYBXhNigZRW+6fYFmfRtRy3YleQ48YBr4lFeSRcIFCIzQWxwZSawDw8XnJKTeDZ
-        a1V8CBcEOyKVa+JapHNLE2lcAE+8u73RhRzxXcWKm3DmqDZlePdbphuMKTVxKdKx2lQF8O4PETeYciNc
-        E+nB02oOeHev0YUauSaCMD8XLteBd3GlOkpP4kK4nBx4D24Ak/SxB50Il5Ojb2DIFPB4c+ZBp8LlOvop
-        aF2EzpypWPn9OaHWJvpF2PIasqqdOa8gr6hrovk1rG1EOfMrEWJmbaLfiGpbMYdQLMzZ+dI4t1k1bcWo
-        dBgRGA6jnHkgboKc0o2NDyNUO44pxKGEgRuPIYbYkvnUcYwOhAteBHhNiUfX+kr+BTzStTIWH4wvwiXO
-        A2pnP0qD/vWzPIgFMs/poNbUoquJeWKxlN6OGuRSIzvnLaJztsxZ/pwOvuuS2I7ZXNhA+Dv+JIIhv7nG
-        GDG1E3OkrvsB3XSX1iVh0EgAAAAASUVORK5CYII=
-</value>
-  </data>
-  <metadata name="districtsBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>282, 17</value>
-  </metadata>
-  <metadata name="dataSet1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>183, 17</value>
-  </metadata>
-  <metadata name="queueTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="districtsTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>455, 17</value>
-  </metadata>
 </root>

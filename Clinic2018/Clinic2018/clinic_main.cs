@@ -31,8 +31,8 @@ namespace Clinic2018
 
         private void clinic_main_v2_Load(object sender, EventArgs e)
         {
-            clinic_login lgn = new clinic_login();
-            this.Show();
+          //  clinic_login lgn = new clinic_login();
+          //  lgn.Show();
         }
 
         private void test1ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -43,8 +43,11 @@ namespace Clinic2018
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
-            clinic_search sh1 = new clinic_search();
-            sh1.Show();
+            visit_record vsr = new visit_record();
+            vsr.Show();
+            
+            //clinic_search sh1 = new clinic_search();
+            //sh1.Show();
         }
 
         private void B_login_Click(object sender, EventArgs e)
@@ -59,7 +62,7 @@ namespace Clinic2018
             this.panel1.Show();
             this.menuStrip1.Hide();
             this.toolStrip1.Hide();
-            //this.Close();
+          //this.Close();
         }
 
         private void toolStripButton2_Click(object sender, EventArgs e)

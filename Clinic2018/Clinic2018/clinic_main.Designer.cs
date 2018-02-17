@@ -52,20 +52,20 @@
             this.toolStripButton7 = new System.Windows.Forms.ToolStripButton();
             this.toolStripButton8 = new System.Windows.Forms.ToolStripButton();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.amphuresTableAdapter1 = new Clinic2018.DataSet1TableAdapters.amphuresTableAdapter();
             this.P_username = new System.Windows.Forms.PictureBox();
             this.P_password = new System.Windows.Forms.PictureBox();
             this.T_Password = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.T_Username = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.B_login = new Bunifu.Framework.UI.BunifuThinButton2();
-            this.geographyTableAdapter1 = new Clinic2018.DataSet1TableAdapters.geographyTableAdapter();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
             this.toolStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.P_username)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P_password)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -268,24 +268,14 @@
             this.panel1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.panel1.Controls.Add(this.groupBox1);
             this.panel1.ForeColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel1.Location = new System.Drawing.Point(406, 134);
+            this.panel1.Location = new System.Drawing.Point(486, 194);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(284, 261);
             this.panel1.TabIndex = 6;
             // 
-            // groupBox1
+            // amphuresTableAdapter1
             // 
-            this.groupBox1.Controls.Add(this.B_login);
-            this.groupBox1.Controls.Add(this.T_Username);
-            this.groupBox1.Controls.Add(this.T_Password);
-            this.groupBox1.Controls.Add(this.P_password);
-            this.groupBox1.Controls.Add(this.P_username);
-            this.groupBox1.Location = new System.Drawing.Point(12, 12);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(260, 237);
-            this.groupBox1.TabIndex = 0;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "เข้าสู้ระบบ";
+            this.amphuresTableAdapter1.ClearBeforeFill = true;
             // 
             // P_username
             // 
@@ -374,9 +364,19 @@
             this.B_login.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.B_login.Click += new System.EventHandler(this.B_login_Click);
             // 
-            // geographyTableAdapter1
+            // groupBox1
             // 
-            this.geographyTableAdapter1.ClearBeforeFill = true;
+            this.groupBox1.Controls.Add(this.B_login);
+            this.groupBox1.Controls.Add(this.T_Username);
+            this.groupBox1.Controls.Add(this.T_Password);
+            this.groupBox1.Controls.Add(this.P_password);
+            this.groupBox1.Controls.Add(this.P_username);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(260, 237);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "เข้าสู้ระบบ";
             // 
             // clinic_main_v2
             // 
@@ -401,9 +401,9 @@
             this.toolStrip1.ResumeLayout(false);
             this.toolStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.P_username)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P_password)).EndInit();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -434,12 +434,12 @@
         private System.Windows.Forms.ToolStripButton toolStripButton7;
         private System.Windows.Forms.ToolStripButton toolStripButton8;
         private System.Windows.Forms.Panel panel1;
+        private DataSet1TableAdapters.amphuresTableAdapter amphuresTableAdapter1;
         private System.Windows.Forms.GroupBox groupBox1;
         private Bunifu.Framework.UI.BunifuThinButton2 B_login;
         private Bunifu.Framework.UI.BunifuMaterialTextbox T_Username;
         private Bunifu.Framework.UI.BunifuMaterialTextbox T_Password;
         private System.Windows.Forms.PictureBox P_password;
         private System.Windows.Forms.PictureBox P_username;
-        private DataSet1TableAdapters.geographyTableAdapter geographyTableAdapter1;
     }
 }

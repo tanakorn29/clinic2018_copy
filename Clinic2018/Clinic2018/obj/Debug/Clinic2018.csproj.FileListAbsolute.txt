@@ -33,3 +33,5 @@ C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_login.resources
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_insert.resources
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_search.resources
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.q_visit_record.resources
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.visit_record.resources
