@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Text.RegularExpressions;
 using System.Linq;
 using System.Drawing;
+using System.ComponentModel;
 
 namespace Clinic2018
 {
@@ -18,13 +19,14 @@ namespace Clinic2018
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Close();
         }
+
         private void comboBox5_Click(object sender, EventArgs e)
         {
-        /*    conn.Open(); //ทดสอบ
+        /*  conn.Open(); //ทดสอบ
             SqlCommand cmd = conn.CreateCommand();
             cmd.CommandType = CommandType.Text;
             cmd.CommandText = "select province_name from provinces";
@@ -40,11 +42,6 @@ namespace Clinic2018
 
             conn.Close();
             */
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         /*private void patient_id_TextChanged(object sender, KeyPressEventArgs e)
@@ -67,8 +64,7 @@ namespace Clinic2018
             throw new NotImplementedException();
         }
 
-        //บันทึกข้อมูลลง Database
-        private void button1_Click_1(object sender, EventArgs e)
+        private void patient_id_Enter(object sender, EventArgs e)
         {
             string insertquery = "insert into patient(patient_id) values('" + patient_id.Text + "')";
             conn.Open();
@@ -94,9 +90,47 @@ namespace Clinic2018
                 MessageBox.Show(ex.Message);
             }
 
-            
+
 
             conn.Close();
+        }
+
+        private void patient_id_Validated(object sender, CancelEventArgs  e)
+        {
+            patient_id.MaxLength = 13;
+            ErrorProvider ep = new ErrorProvider();
+
+            if (string.IsNullOrEmpty(patient_id.Text))
+            {
+                e.Cancel = true;
+                patient_id.Focus();
+                ep.SetError(patient_id, " Please enter your user name");
+            }
+            else
+            {
+                e.Cancel = false;
+                ep.SetError(patient_id, null);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(patient_id.Text, "คำเตือน", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void patient_id_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        //เลือกวัน เดือน ปีเกิด แสดงอายุ
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            DateTime from = dateTimePicker1.Value;
+            DateTime to = DateTime.Now;
+            TimeSpan tspan = to - from;
+            double days = tspan.TotalDays;
+            label5.Text = (days / 365).ToString("0");
         }
 
         /*public void Regexp(string re, TextBox tb, PictureBox pc, Label lbel, string s)
@@ -117,4 +151,4 @@ namespace Clinic2018
             }*/
 
     }
-    }
+}

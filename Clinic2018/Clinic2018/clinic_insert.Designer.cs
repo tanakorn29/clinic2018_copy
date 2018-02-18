@@ -36,6 +36,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.label6 = new System.Windows.Forms.Label();
             this.patient_id = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -65,7 +66,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox11 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox10 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -80,7 +80,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.queueTableAdapter1 = new Clinic2018.DataSet1TableAdapters.queueTableAdapter();
             this.districtsTableAdapter = new Clinic2018.DataSet1TableAdapters.districtsTableAdapter();
-            this.label6 = new System.Windows.Forms.Label();
+            this.dataSet11 = new Clinic2018.DataSet1();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -89,6 +90,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.districtsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -152,6 +154,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.dateTimePicker1);
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.patient_id);
             this.tabPage1.Controls.Add(this.button1);
@@ -180,7 +183,6 @@
             this.tabPage1.Controls.Add(this.label12);
             this.tabPage1.Controls.Add(this.textBox12);
             this.tabPage1.Controls.Add(this.textBox11);
-            this.tabPage1.Controls.Add(this.textBox5);
             this.tabPage1.Controls.Add(this.textBox10);
             this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.label11);
@@ -195,12 +197,22 @@
             this.tabPage1.Text = "ลงทะเบียน";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(422, 23);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(35, 13);
+            this.label6.TabIndex = 11;
+            this.label6.Text = "label6";
+            // 
             // patient_id
             // 
             this.patient_id.Location = new System.Drawing.Point(127, 23);
             this.patient_id.Name = "patient_id";
             this.patient_id.Size = new System.Drawing.Size(221, 20);
             this.patient_id.TabIndex = 10;
+            this.patient_id.TextChanged += new System.EventHandler(this.patient_id_TextChanged);
             // 
             // button1
             // 
@@ -210,7 +222,7 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Insert";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label5
             // 
@@ -447,13 +459,6 @@
             this.textBox11.Size = new System.Drawing.Size(113, 20);
             this.textBox11.TabIndex = 2;
             // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(127, 76);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(113, 20);
-            this.textBox5.TabIndex = 2;
-            // 
             // textBox10
             // 
             this.textBox10.Location = new System.Drawing.Point(674, 246);
@@ -574,14 +579,20 @@
             // 
             this.districtsTableAdapter.ClearBeforeFill = true;
             // 
-            // label6
+            // dataSet11
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(354, 29);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(35, 13);
-            this.label6.TabIndex = 11;
-            this.label6.Text = "label6";
+            this.dataSet11.DataSetName = "DataSet1";
+            this.dataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "dd-MM-yyyy";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(128, 77);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(112, 20);
+            this.dateTimePicker1.TabIndex = 12;
+            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // clinic_insert
             // 
@@ -606,6 +617,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataSet1)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataSet11)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -644,7 +656,6 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.TextBox textBox11;
-        private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox10;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox9;
@@ -663,5 +674,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox patient_id;
         private System.Windows.Forms.Label label6;
+        private DataSet1 dataSet11;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }
