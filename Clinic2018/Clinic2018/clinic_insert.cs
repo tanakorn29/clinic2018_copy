@@ -66,33 +66,7 @@ namespace Clinic2018
 
         private void patient_id_Enter(object sender, EventArgs e)
         {
-            string insertquery = "insert into patient(patient_id) values('" + patient_id.Text + "')";
-            conn.Open();
-            SqlCommand cmd = new SqlCommand(insertquery, conn);
-            try
-            {
-                if (cmd.ExecuteNonQuery() == 1)
-                {
-                    //แสดงข้อความแทน
-                    label6.ForeColor = Color.Green;
-                    label6.Text = "ครบ 13 หลัก";
-
-                    //แสดงป็อปอัพข้อความแทน
-                    //MessageBox.Show("Data Inserted");
-                }
-                else
-                {
-                    MessageBox.Show("Data Not Inserted");
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message);
-            }
-
-
-
-            conn.Close();
+            
         }
 
         private void patient_id_Validated(object sender, CancelEventArgs  e)
@@ -115,7 +89,31 @@ namespace Clinic2018
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(patient_id.Text, "คำเตือน", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            string insertquery = "insert into patient(patient_id, patient_name, patient_birthday) values('" +
+                patient_id.Text + "', '" + patient_name.Text + "', '" + dateTimePicker1 + "')";
+            conn.Open();
+            SqlCommand cmd = new SqlCommand(insertquery, conn);
+            try
+            {
+                if (cmd.ExecuteNonQuery() == 1)
+                {
+                    //แสดงข้อความแทน
+                    label6.ForeColor = Color.Green;
+                    label6.Text = "ครบ 13 หลัก";
+
+                    //แสดงป็อปอัพข้อความแทน
+                    //MessageBox.Show("Data Inserted");
+                }
+                else
+                {
+                    MessageBox.Show("Data Not Inserted");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            conn.Close();
         }
 
         private void patient_id_TextChanged(object sender, EventArgs e)
@@ -133,22 +131,22 @@ namespace Clinic2018
             label5.Text = (days / 365).ToString("0");
         }
 
-        /*public void Regexp(string re, TextBox tb, PictureBox pc, Label lbel, string s)
+    /*public void Regexp(string re, TextBox tb, PictureBox pc, Label lbel, string s)
+    {
+        //patient_id.MaxLength = 13;
+        Regex reger = new Regex(re);
+        if (regex.IsMatch(tb.Text))
         {
-            //patient_id.MaxLength = 13;
-            Regex reger = new Regex(re);
-            if (regex.IsMatch(tb.Text))
-            {
-                pc.Image = Properties.Resources.valid;
-                lbel.ForeColor = Color.Red;
-                lbel.Text = s + " InValid";
-            }
-            else
-            {
-                pc.Image = Properties.Resources.valid;
-                lbel.ForeColor = Color.Green;
-                lbel.Text = s + " Valid";
-            }*/
+            pc.Image = Properties.Resources.valid;
+            lbel.ForeColor = Color.Red;
+            lbel.Text = s + " InValid";
+        }
+        else
+        {
+            pc.Image = Properties.Resources.valid;
+            lbel.ForeColor = Color.Green;
+            lbel.Text = s + " Valid";
+        }*/
 
-    }
+}
 }
