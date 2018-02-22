@@ -17,8 +17,6 @@ namespace Clinic2018
             InitializeComponent();
         }
 
-        public static object WindowState { get; internal set; }
-
         private void B_barcode_Click(object sender, EventArgs e)
         {
             Zen.Barcode.Code128BarcodeDraw barcode = Zen.Barcode.BarcodeDrawFactory.Code128WithChecksum;

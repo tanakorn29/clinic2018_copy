@@ -55,6 +55,12 @@
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Windows" />
+    <Reference Include="System.Windows.Controls.Ribbon" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Windows.Forms.DataVisualization.Design" />
+    <Reference Include="System.Windows.Input.Manipulations" />
+    <Reference Include="System.Windows.Interactivity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -131,12 +137,20 @@
     <Compile Include="clinic_search.Designer.cs">
       <DependentUpon>clinic_search.cs</DependentUpon>
     </Compile>
+    <Compile Include="cmd\SqlDataAdapter.cs" />
+    <Compile Include="conn_patient.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>conn_patient.xsd</DependentUpon>
+    </Compile>
     <Compile Include="DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </Compile>
-    <Compile Include="FromWindowState.cs" />
+    <Compile Include="MyTabPage.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="q_visit_record.cs">
@@ -145,7 +159,6 @@
     <Compile Include="q_visit_record.Designer.cs">
       <DependentUpon>q_visit_record.cs</DependentUpon>
     </Compile>
-    <Compile Include="regex.cs" />
     <Compile Include="Show_text.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -162,11 +175,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>UserControl1.resx</DependentUpon>
     </Compile>
-    <Compile Include="visit_record.cs">
+    <Compile Include="clinic_visit_record.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="visit_record.designer.cs">
-      <DependentUpon>visit_record.cs</DependentUpon>
+    <Compile Include="clinic_visit_record.designer.cs">
+      <DependentUpon>clinic_visit_record.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="clinic_barcode.resx">
       <DependentUpon>clinic_barcode.cs</DependentUpon>
@@ -209,9 +222,20 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UserControl11.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="visit_record.resx">
-      <DependentUpon>visit_record.cs</DependentUpon>
+    <EmbeddedResource Include="clinic_visit_record.resx">
+      <DependentUpon>clinic_visit_record.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="conn_patient.xsc">
+      <DependentUpon>conn_patient.xsd</DependentUpon>
+    </None>
+    <None Include="conn_patient.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>conn_patient.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="conn_patient.xss">
+      <DependentUpon>conn_patient.xsd</DependentUpon>
+    </None>
     <None Include="DataSet1.xsc">
       <DependentUpon>DataSet1.xsd</DependentUpon>
     </None>
@@ -233,18 +257,36 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="Resources\ic_cancel.png" />
-    <None Include="Resources\ic_cancel1.png" />
-    <None Include="Resources\ic_documents.png" />
-    <None Include="Resources\ic_grid.png" />
-    <None Include="Resources\ic_user.png" />
-    <None Include="Resources\ic_zoom.png" />
-    <None Include="Resources\logo_Heart_Care.png" />
-    <None Include="Resources\x-01-512.png" />
-    <None Include="Resources\มหาวิทยาลัยรามคำแหง_2.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_Heart_Care.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_cancel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\x-01-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\มหาวิทยาลัยรามคำแหง_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_grid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_documents.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ic_zoom.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
@@ -259,8 +301,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\cancel.png" />
-    <Content Include="Resources\check.png" />
+    <None Include="Resources\ic_user1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

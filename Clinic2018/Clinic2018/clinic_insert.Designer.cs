@@ -36,6 +36,7 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.label6 = new System.Windows.Forms.Label();
             this.patient_id = new System.Windows.Forms.TextBox();
@@ -43,8 +44,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.amphures = new System.Windows.Forms.ComboBox();
             this.districtsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataSet1 = new Clinic2018.DataSet1();
             this.label23 = new System.Windows.Forms.Label();
@@ -82,6 +82,8 @@
             this.queueTableAdapter1 = new Clinic2018.DataSet1TableAdapters.queueTableAdapter();
             this.districtsTableAdapter = new Clinic2018.DataSet1TableAdapters.districtsTableAdapter();
             this.dataSet11 = new Clinic2018.DataSet1();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button4 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -154,6 +156,9 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.button4);
+            this.tabPage1.Controls.Add(this.comboBox1);
+            this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.dateTimePicker1);
             this.tabPage1.Controls.Add(this.label6);
             this.tabPage1.Controls.Add(this.patient_id);
@@ -161,8 +166,7 @@
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.comboBox4);
             this.tabPage1.Controls.Add(this.comboBox3);
-            this.tabPage1.Controls.Add(this.comboBox2);
-            this.tabPage1.Controls.Add(this.comboBox1);
+            this.tabPage1.Controls.Add(this.amphures);
             this.tabPage1.Controls.Add(this.label23);
             this.tabPage1.Controls.Add(this.label17);
             this.tabPage1.Controls.Add(this.label10);
@@ -197,6 +201,14 @@
             this.tabPage1.Text = "ลงทะเบียน";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(562, 100);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 13;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.CustomFormat = "dd-MM-yyyy";
@@ -205,7 +217,6 @@
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(112, 20);
             this.dateTimePicker1.TabIndex = 12;
-            this.dateTimePicker1.ValueChanged += new System.EventHandler(this.dateTimePicker1_ValueChanged);
             // 
             // label6
             // 
@@ -222,7 +233,6 @@
             this.patient_id.Name = "patient_id";
             this.patient_id.Size = new System.Drawing.Size(221, 20);
             this.patient_id.TabIndex = 10;
-            this.patient_id.TextChanged += new System.EventHandler(this.patient_id_TextChanged);
             // 
             // button1
             // 
@@ -232,7 +242,6 @@
             this.button1.TabIndex = 9;
             this.button1.Text = "Insert";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // label5
             // 
@@ -259,22 +268,13 @@
             this.comboBox3.Size = new System.Drawing.Size(113, 21);
             this.comboBox3.TabIndex = 4;
             // 
-            // comboBox2
+            // amphures
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(127, 129);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(113, 21);
-            this.comboBox2.TabIndex = 4;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.DataSource = this.districtsBindingSource;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(127, 102);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(113, 21);
-            this.comboBox1.TabIndex = 4;
+            this.amphures.FormattingEnabled = true;
+            this.amphures.Location = new System.Drawing.Point(127, 129);
+            this.amphures.Name = "amphures";
+            this.amphures.Size = new System.Drawing.Size(113, 21);
+            this.amphures.TabIndex = 4;
             // 
             // districtsBindingSource
             // 
@@ -594,6 +594,25 @@
             this.dataSet11.DataSetName = "DataSet1";
             this.dataSet11.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
             // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(353, 181);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 14;
+            this.comboBox1.Click += new System.EventHandler(this.comboBox1_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(353, 208);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 15;
+            this.button4.Text = "button4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
             // clinic_insert
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -661,8 +680,7 @@
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.ComboBox comboBox4;
         private System.Windows.Forms.ComboBox comboBox3;
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox amphures;
         private DataSet1 dataSet1;
         private System.Windows.Forms.BindingSource districtsBindingSource;
         private DataSet1TableAdapters.districtsTableAdapter districtsTableAdapter;
@@ -676,5 +694,8 @@
         private System.Windows.Forms.Label label6;
         private DataSet1 dataSet11;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button4;
     }
 }

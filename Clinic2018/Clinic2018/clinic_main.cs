@@ -26,7 +26,8 @@ namespace Clinic2018
 
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            clinic_insert cn = new clinic_insert();
+            cn.Show();
         }
 
         private void clinic_main_v2_Load(object sender, EventArgs e)
@@ -35,20 +36,8 @@ namespace Clinic2018
           //  lgn.Show();
         }
 
-        private void test1ToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            clinic_search sh1 = new clinic_search();
-            sh1.Show();
-        }
+      
 
-        private void toolStripButton1_Click(object sender, EventArgs e)
-        {
-            visit_record vsr = new visit_record();
-            vsr.Show();
-            
-            //clinic_search sh1 = new clinic_search();
-            //sh1.Show();
-        }
 
         private void B_login_Click(object sender, EventArgs e)
         {
@@ -65,10 +54,22 @@ namespace Clinic2018
           //this.Close();
         }
 
-        private void toolStripButton2_Click(object sender, EventArgs e)
+
+
+        private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-            clinic_search cic = new Clinic2018.clinic_search();
-            cic.Show();
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            clinic_search  cs = new clinic_search();
+            cs.Show();
         }
     }
 }

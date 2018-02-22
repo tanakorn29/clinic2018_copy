@@ -34,4 +34,15 @@ C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_insert.resources
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_search.resources
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.q_visit_record.resources
-C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.visit_record.resources
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_visit_record.resources
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\System.Windows.Interactivity.xml
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll

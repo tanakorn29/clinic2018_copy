@@ -26,11 +26,22 @@ namespace Clinic2018.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Provider=SQLNCLI11;Data Source=DESKTOP-VAM0JO2\\SQLEXPRESS;Persist Security Info=T" +
-            "rue;Password=111111;User ID=tanakorn29;Initial Catalog=Clinic2018")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=SQLNCLI11;Data Source=DESKTOP-L2HUNPH\\SQLEXPRESS;Persist Security Info=T" +
+            "rue;Password=1234;User ID=sa;Initial Catalog=Clinic2018")]
         public string ConnectionString {
             get {
                 return ((string)(this["ConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Provider=SQLNCLI11;Data Source=DESKTOP-VAM0JO2\\SQLEXPRESS;Persist Security Info=T" +
+            "rue;Password=111111;User ID=tanakorn29;Initial Catalog=Clinic2018")]
+        public string CONN_patient {
+            get {
+                return ((string)(this["CONN_patient"]));
             }
         }
     }
