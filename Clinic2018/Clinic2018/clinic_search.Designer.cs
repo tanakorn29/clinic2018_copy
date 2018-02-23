@@ -35,6 +35,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.TB1 = new System.Windows.Forms.TextBox();
+            this.TB2 = new System.Windows.Forms.TextBox();
+            this.TB3 = new System.Windows.Forms.TextBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -44,6 +50,12 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.panel1.Controls.Add(this.label2);
+            this.panel1.Controls.Add(this.linkLabel1);
+            this.panel1.Controls.Add(this.TB3);
+            this.panel1.Controls.Add(this.TB2);
+            this.panel1.Controls.Add(this.TB1);
+            this.panel1.Controls.Add(this.textBox2);
             this.panel1.Controls.Add(this.textBox1);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.pictureBox2);
@@ -106,6 +118,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToOrderColumns = true;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
@@ -113,7 +126,7 @@
             this.dataGridView1.Location = new System.Drawing.Point(12, 127);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(1056, 431);
+            this.dataGridView1.Size = new System.Drawing.Size(500, 431);
             this.dataGridView1.TabIndex = 2;
             // 
             // label1
@@ -127,6 +140,55 @@
             this.label1.Size = new System.Drawing.Size(340, 42);
             this.label1.TabIndex = 0;
             this.label1.Text = "ค้นหาข้อมูลเวชระเบียน";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(820, 241);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(142, 20);
+            this.textBox2.TabIndex = 6;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            // 
+            // TB1
+            // 
+            this.TB1.Location = new System.Drawing.Point(820, 286);
+            this.TB1.Name = "TB1";
+            this.TB1.Size = new System.Drawing.Size(100, 20);
+            this.TB1.TabIndex = 7;
+            // 
+            // TB2
+            // 
+            this.TB2.Location = new System.Drawing.Point(820, 312);
+            this.TB2.Name = "TB2";
+            this.TB2.Size = new System.Drawing.Size(100, 20);
+            this.TB2.TabIndex = 7;
+            // 
+            // TB3
+            // 
+            this.TB3.Location = new System.Drawing.Point(820, 338);
+            this.TB3.Name = "TB3";
+            this.TB3.Size = new System.Drawing.Size(100, 20);
+            this.TB3.TabIndex = 7;
+            // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.Location = new System.Drawing.Point(820, 417);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(55, 13);
+            this.linkLabel1.TabIndex = 8;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "linkLabel1";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(820, 401);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(35, 13);
+            this.label2.TabIndex = 9;
+            this.label2.Text = "label2";
             // 
             // clinic_search
             // 
@@ -157,5 +219,11 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox TB3;
+        private System.Windows.Forms.TextBox TB2;
+        private System.Windows.Forms.TextBox TB1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Label label2;
     }
 }
