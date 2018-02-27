@@ -38,7 +38,6 @@ namespace Clinic2018
         SqlCommand cmd;
         SqlDataAdapter sda;
         DataTable dt;
-        SqlDataReader sdr;
 
         //ในช่องค้นหา ใช้ Event ชื่อว่า TextChanged เมื่อช่องค้นหามีการเปลี่ยนแปลง ข้อความจะถูกเปลี่ยน
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -49,30 +48,6 @@ namespace Clinic2018
             dt = new DataTable();
             sda.Fill(dt);
             dataGridView1.DataSource = dt;
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-            conn.Open();
-            string query = "select * from patient where patient_idcard = '" + textBox2.Text + "'";
-            cmd = new SqlCommand(query, conn);
-            sda = new SqlDataAdapter(cmd);
-            dt = new DataTable();         
-            sda.Fill(dt);
-
-            foreach (DataRow dr in dt.Rows)
-            {
-                label2.Text = dr["patient_name"].ToString();
-                linkLabel1.Text = dr["ยินยันการรักษา"].ToString();
-            }
-                
-            conn.Close();
-
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            Process.Start("https://www.youtube.com/watch?v=bzFPaxVCE48");
         }
     }
 }
