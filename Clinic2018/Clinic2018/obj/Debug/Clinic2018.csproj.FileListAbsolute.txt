@@ -46,3 +46,5 @@ C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\ko\System.Windows.Interactivity.resources.dll
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
 C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_test_1.resources
+C:\Users\Tanakorn na Ranong\Source\Repos\clinic2018\clinic2018\Clinic2018\Clinic2018\obj\Debug\Clinic2018.clinic_test_2.resources

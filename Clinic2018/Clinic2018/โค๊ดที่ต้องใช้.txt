@@ -52,3 +52,25 @@ private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs
                 MessageBox.Show("Username or Password not correct");
             }
             conn.Close();*/
+
+
+//โค้ดลายน้ำใน Textbox ต้องใช้Even Enter และ Leave
+			private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "บัตรประชาชน")
+            {
+                textBox1.Text = "";
+
+                textBox1.ForeColor = Color.Black;
+            }
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "")
+            {
+                textBox1.Text = "บัตรประชาชน";
+
+                textBox1.ForeColor = Color.Silver;
+            }
+        }

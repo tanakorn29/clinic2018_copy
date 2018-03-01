@@ -142,19 +142,22 @@
         TgDQASA1MVpwzwAAAABJRU5ErkJggg==
 </value>
   </data>
+  <metadata name="amphuresTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>353, 17</value>
+  </metadata>
   <data name="B_login.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAFcAAAApCAYAAABA4LXdAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIVSURBVGhD7dpNSxtRFMZxv5MIRRAhkLS+pcZFUVyoCEJb
-        S22x1FCSTOJHKEVEQVEES0W6sGAptCUNxdaYzBT8AK5cuXLl6phnhkZDjsHMeFY+i99qbkb4J9y5zr0d
-        ncsiZINxDTGuIcY1xLiGGNdQy7hdKxeS3Pkus8W0zB/MSKaSksV/sXsNDdDi5a/Xktrdlwer52o7uDFu
-        /8e/kq0MS646qP4RiolTHZBsNSkjn/fUhk1x8U08+5mtfWhIvSE1y9Vavfr9XLrXzhpaNsRF2HR5TPJe
-        Qr0JtZY+HJWe9VM9Ln6xDBsN5uOmuP4cy6kgMscdkPEv61dxsSrAw0sbTO3LVIeld+MkiIslBZ582kBq
-        X96Ny+TXD0FcrNm0QRSSF5OFw/Eg7rvyEylogyi0ghcP4jpunzqAovHjahcoOsY1xLiGGNcQ4xpiXEOM
-        a4hxDflx8d+EdpGi8eNyb8yGHxdbFNpFCgfvafC+xo87trcpee+ROpDCefrDCeJi3ydXSaqDqH3Y0Rn8
-        VAriwsT+El+Y34G8m5AXxbeNe2jY6nnzZ1r9AN1e5mikflCkHhew74OVA1+ch4O9s4fbbr1nQ1yIbx37
-        Zxcclw+42yp4Cf8Xez0sNMUFTBFT397XJubH6s3oCo57zZXm1DNjatz/8E1gSYHjOtqN7zNsjeGAIg4q
-        au2gZVyKhnENMa4hxjXEuGZELgHOtudwH9ClqgAAAABJRU5ErkJggg==
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAH7SURBVGhD7drLSsNAFMZxn028YL2AiCtBcKELXYhPIGqi
+        tlLwfsGNCzduBMELSmlFRbTUtuMLHedLsFp6rJpwVv0Wv007ifBvmMTMdB1dOiEbjGuIcQ0xriHGNcS4
+        htrGPbyqyFbxRLLlOVl7m5SwPiwr790dDQ3QIluekc3SsRxcv6jt4Me4O4Uzf6IhCV1G/SPULYEb8I0G
+        ZfP+UG3YEhe/RO513h84qJ6QWiHwemVKDm4em1o2xUXYsDYmK65XPQm1F1bHZP+mpMfFFcuw6WA+bomL
+        OZZTQXqhn4fzD9mvuHgqwM1LG0z/F/gnir3buzguHilw59MGUgJ+as0/L8Vx8cymDqJknJ8eauNx3NXa
+        qCxrgyg51xPHDVy/PoBSieJqX1B6jGuIcQ0xriHGNcS4hhjXEOMaiuP6/ya0LymdKC7XxmxEcbFEoX1J
+        yeA9Dd7XRHHzDxsSvvepAymZ3MtCHBfrPlhk0wbR/wX1jGwXT+O40dX7tOw/5Avz1FyvZMuzzWtoWOpZ
+        q07oB9CfhbWRxkaRRlzAug/Wf/jiPJnADctu4bzRsyku7N5dxHsX6nyB/leB64uu2O9hoSUuYIrIPy/6
+        g7gi/Bts91ovT6t7xtS4n/BL4JEi9Hc/7cSdDEtj2KCIjYpaO2gbl9JhXEOMa4hxDTGuGScf3g5In3Sx
+        L4QAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="P_password.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -169,9 +172,6 @@
         KmM0bqjKeIaj4N5uqMrgB8mIbwLuyb3dULW7uKTdxeWcVl906ebBDfOW0QAAAABJRU5ErkJggg==
 </value>
   </data>
-  <metadata name="amphuresTableAdapter1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>353, 17</value>
-  </metadata>
   <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>35</value>
   </metadata>

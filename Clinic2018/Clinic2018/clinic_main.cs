@@ -13,6 +13,8 @@ namespace Clinic2018
 {
     public partial class clinic_main_v2 : Form
     {
+        private object set;
+
         public clinic_main_v2()
         {
             InitializeComponent();
@@ -27,8 +29,8 @@ namespace Clinic2018
 
         private void fileToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            clinic_insert cn = new clinic_insert();
-            cn.Show();
+            clinic_search cns = new clinic_search();
+            cns.Show();
         }
 
         private void clinic_main_v2_Load(object sender, EventArgs e)
@@ -36,9 +38,6 @@ namespace Clinic2018
           //  clinic_login lgn = new clinic_login();
           //  lgn.Show();
         }
-
-
-
 
         private void B_login_Click(object sender, EventArgs e)
         {
@@ -52,7 +51,7 @@ namespace Clinic2018
                 SqlDataReader dr = cmd.ExecuteReader();
                 if (dr.HasRows == true)
                 {
-                    MessageBox.Show("Corrected!");
+                    MessageBox.Show("ยินดีต้อนรับ" +" "+T_Username.Text);
                     this.menuStrip1.Show();
                     this.toolStrip1.Show();
                     this.panel1.Hide();
@@ -77,8 +76,6 @@ namespace Clinic2018
           //this.Close();
         }
 
-
-
         private void toolStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
 
@@ -93,6 +90,11 @@ namespace Clinic2018
         {
             clinic_search  cs = new clinic_search();
             cs.Show();
+        }
+
+        private void L_name_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

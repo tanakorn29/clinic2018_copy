@@ -63,6 +63,16 @@ namespace Clinic2018.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _24068730_1602140229809333_8581241208102830372_o {
+            get {
+                object obj = ResourceManager.GetObject("24068730_1602140229809333_8581241208102830372_o", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ic_cancel {
             get {
                 object obj = ResourceManager.GetObject("ic_cancel", resourceCulture);
